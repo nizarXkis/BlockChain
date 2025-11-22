@@ -6,7 +6,10 @@ class Blockchain:
 
     def __init__(self):
         self.chain = []
+        #hna difficult
+        ######################################""
         self.difficulty = 4
+        ########################################
         self.create_genesis_block()
 
     def create_genesis_block(self):
