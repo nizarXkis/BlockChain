@@ -22,6 +22,13 @@ class Blockchain:
         new_block = Block(len(self.chain), data, previous_hash)
         new_block.mine_block(self.difficulty)
         self.chain.append(new_block)
+    def calculate_average_nonce(self):
+        total_nonce = sum(block.nonce for block in self.chain)
+        num_blocks = len(self.chain)
+        if num_blocks > 0:
+            average = total_nonce / num_blocks
+            return average
+        return 0
 
     def is_chain_valid(self):
         for i in range(1, len(self.chain)):

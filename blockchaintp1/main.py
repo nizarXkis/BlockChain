@@ -22,6 +22,9 @@ if __name__ == "__main__":
         print("The Blockchain is VALID and secured.")
     else:
         print("The Blockchain is INVALID.")
+    print("\n" + "="*50)
+    avg_nonce = my_blockchain.calculate_average_nonce()
+    print(f"Average Nonce Count across {len(my_blockchain.chain)} Blocks: {avg_nonce:.2f}")
         
     print("\n" + "="*50)
     print("TAMPERING TEST:")
