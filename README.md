@@ -8,11 +8,16 @@ python main.py
 
 
 
-i wont lie i used AI but i did a lot work by myself too so i hope u will like my work and thank you 
--nizar kismoune
-
-
-
+i wont lie i used AI but i did a lot work by myself too so ,i hope u will like my work
+i started working on my own pc then i changed to github you wont see my code starting from scratch
+and about this page i didnt know how to explain all the code by myself so used a little bit of AI for organizational purposes
+i worked with soheyb fassi 
+down you will find mywork 
+ ||
+_||_
+\  /
+ \/
+ thank you for your time
 
 ###################################################################################################################""
 
