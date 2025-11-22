@@ -1,9 +1,12 @@
 from block import Block
 
 class Blockchain:
+    
+    #i made difficult 1 because im loking for 0 nonce not 000
+
     def __init__(self):
         self.chain = []
-        self.difficulty = 3
+        self.difficulty = 1
         self.create_genesis_block()
 
     def create_genesis_block(self):
