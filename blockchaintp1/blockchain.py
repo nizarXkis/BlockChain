@@ -2,11 +2,11 @@ from block import Block
 
 class Blockchain:
 
-    #i made difficult 1 because im looking for 0 nonce not 000
+    #i made difficult 4 not 1 because im looking for 0 nonce not 000
 
     def __init__(self):
         self.chain = []
-        self.difficulty = 1
+        self.difficulty = 4
         self.create_genesis_block()
 
     def create_genesis_block(self):
@@ -22,6 +22,8 @@ class Blockchain:
         new_block = Block(len(self.chain), data, previous_hash)
         new_block.mine_block(self.difficulty)
         self.chain.append(new_block)
+        #n7sab average nonce here
+        ###############################################
     def calculate_average_nonce(self):
         total_nonce = sum(block.nonce for block in self.chain)
         num_blocks = len(self.chain)
@@ -29,6 +31,7 @@ class Blockchain:
             average = total_nonce / num_blocks
             return average
         return 0
+    ####################################################
 
     def is_chain_valid(self):
         for i in range(1, len(self.chain)):
