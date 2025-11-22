@@ -1,8 +1,8 @@
 from block import Block
 
 class Blockchain:
-    
-    #i made difficult 1 because im loking for 0 nonce not 000
+
+    #i made difficult 1 because im looking for 0 nonce not 000
 
     def __init__(self):
         self.chain = []
