@@ -1,3 +1,25 @@
+#####################################################################################""
+
+
+for run Use
+cd blockchaintp1
+then:
+python main.py
+
+
+
+i wont lie i used AI but i did a lot work by myself too so i hope u will like my work and thank you 
+-nizar kismoune
+
+
+
+
+###################################################################################################################""
+
+
+
+
+
 # Minimal Blockchain Implementation in Python
 
 This repository presents a concise, functional implementation of a fundamental blockchain using native Python libraries. The project demonstrates core principles including block structure, hashing, Proof-of-Work (PoW), and chain integrity validation.
@@ -14,14 +36,3 @@ The following features comply with all project requirements, including optional 
 | **Chain Validation** | The `is_chain_valid()` function verifies block linkage, confirms adherence to PoW difficulty, and detects data tampering. |
 | **Mining Time Measurement** | The elapsed time required for the PoW calculation for each block is measured and reported. |
 | **Average Nonce Count** | The average `nonce` value across all mined blocks is calculated and displayed. |
-
-
-for run Use
-cd blockchaintp1
-then:
-python main.py
-
-
-
-i wont lie i used AI but i did a lot work by myself too so i hope u will like my work and thank you 
--nizar kismoune
